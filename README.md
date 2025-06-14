@@ -31,6 +31,12 @@ We use Python libraries like `yfinance`, `pandas_datareader`, and `matplotlib` t
 
 This approach underperforms buy-and-hold, but shows lower drawdowns and serves as a decent example of macro signal filtering.
 
+### Strategy vs. Buy & Hold
+
+![Strategy Performance](fed_funds_chart.png)
+
+The chart shows how the Fed Funds strategy (solid line) compares to a buy-and-hold of SPY (dashed). The strategy avoids large drawdowns by sitting out of the market during rate hike periods.
+
 ## Files Included
 
 - `fed_funds_strategy.py` — full codebase for the strategy
